@@ -1,0 +1,15 @@
+{
+  "run_list" : [
+    "recipe[zsh]",
+    "recipe[git]",
+    "recipe[tig]",
+    "recipe[git-flow]",
+    "recipe[tmux]",
+    "recipe[vim]",
+    "recipe[emacs]",
+    "recipe[tree]",
+    "recipe[ntp]",
+    "recipe[wget]",
+    "recipe[ack-grep]"
+  ]
+}
