@@ -4,11 +4,11 @@
     "recipe[git]",
     "recipe[tig]",
     "recipe[git-flow]",
-    "recipe[tmux]",
+    //"recipe[tmux]",
     "recipe[vim]",
     "recipe[emacs]",
     "recipe[tree]",
-    "recipe[ntp]",
+    //"recipe[ntp]",
     "recipe[wget]",
     "recipe[ack-grep]"
   ]
