@@ -15,6 +15,13 @@ user "nakaji" do
   password ""
 end
 
+directory "/var/www" do
+  owner "root"
+  group "root"
+  mode 00755
+  action :create
+end
+
 user "app" do
   comment "Application Server"
   uid 1001
@@ -24,3 +31,9 @@ user "app" do
   password ""
 end
 
+directory "/var/www/app" do
+  owner "app"
+  group "app"
+  mode 00755
+  action :create
+end
